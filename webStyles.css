@@ -1,0 +1,470 @@
+/* * * * * * * * * * * * * * * * * * * * * * */
+/* HTML TAGS (See also form and link styles) */
+/* * * * * * * * * * * * * * * * * * * * * * */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	margin: 4px 0px 0px;
+	padding: 0px;
+	background: #BFCDDE url(images/background.jpg) repeat-x fixed left top;
+	height: 100%;
+	width: 100%;
+}
+table {	font-size: 13px;}
+li { padding-bottom: 5px;}
+
+/* * * * * * * * * * * * * * * * * * * * * * */
+/* LINK STYLES                               */
+/* * * * * * * * * * * * * * * * * * * * * * */
+
+a { 
+	text-decoration:    none;
+	color:  #4C6895;
+}
+a:hover {
+	text-decoration: underline;
+}
+#alphaLinks a { 
+	text-decoration:    underline;
+	color:  #000000;
+}
+#alphaLinks a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+#topLeftLinks a {
+	text-decoration:    none;
+	color:  #FFFFFF;
+	margin-right: 15px;
+	font-size: 11px;
+}
+#topLeftLinks a:hover {
+	text-decoration: underline;
+}
+#leftMenuCell ul a   { 
+    text-decoration:    none;
+	font-size: 12px;
+	font-weight: regular;
+	 color:  #2C5B91;
+}
+#leftMenuCell ul a:hover {
+	font-weight: bold;
+}
+#leftMenuCell ul a #arrow {
+	visibility: hidden;
+}
+#leftMenuCell ul a:hover #arrow {
+	visibility: visible;
+}
+#homeLeftCell ul a   { 
+     text-decoration:    none;
+	 font-size: 11px;
+	 font-weight: regular;
+	 color:  #2C5B91;
+}
+#homeLeftCell ul a:hover {
+	font-weight: bold;
+}
+#homeLeftCell ul a #arrow {
+	visibility: hidden;
+}
+#homeLeftCell ul a:hover #arrow {
+	visibility: visible;
+}
+#flashSquareBox #borderedLinks a {
+	letter-spacing: 1px;
+	border: 1px solid #96A6B5;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 4px 4px 4px 4px;
+	margin-left: 4px;
+	background: #8B9BB4 url(images/buttonBackgroundHome.jpg) repeat-x left top;
+}
+#flashSquareBox #borderedLinks a:hover {
+	border: 1px solid #FFFFFF;
+	background: #8B9BB4 url(images/buttonBackgroundHomeFlip.jpg) repeat-x left top;
+}
+#topMenuBox #borderedLinks a {
+	letter-spacing: 1px;
+	border: 1px solid #2C5B91;
+	text-decoration: none;
+	color: #000066;
+	padding: 4px 4px 4px 4px;
+	margin-left: 4px;
+	background: url(images/buttonBackground.jpg) repeat-x left top;
+}
+#topMenuBox #borderedLinks a:hover {
+	border: 1px solid #FFFFFF;
+	background: url(images/buttonBackgroundFlip.jpg) repeat-x left top;
+}
+#bottomMenuBox a {
+	text-decoration: none;
+	color:  #2C5B91;
+}
+#bottomMenuBox a:hover {
+	text-decoration: underline;
+}
+.copyrightLink {
+	text-decoration: underline;
+	color:  #7389AC;
+}
+.copyrightLink:hover  {
+	text-decoration: underline;
+	color:  #0000FF;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * */
+/* FORM STYLES                               */
+/* * * * * * * * * * * * * * * * * * * * * * */
+
+form { margin: 0px;}
+input, select, textarea, textbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.formButton {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 1px solid #95ADC8;
+	padding: 0px;
+	background: #002870;
+	cursor: hand;
+}
+.formButtonRollover {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+	padding: 3px;
+	background: #E8112D;
+	cursor: hand;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * */
+/* LAYOUT DIVS & TABLES                      */
+/* * * * * * * * * * * * * * * * * * * * * * */
+
+#flashSquareBox {
+	font-size: 9px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(images/flashSquare.jpg) no-repeat left top;
+	width: 442px; /* Width plus left & right padding should add to 450 pixels. */
+	border: 1px solid #2C5B91;
+	padding: 310px 8px 4px 0px;
+	text-align: center;
+}
+#breadCrumbs {
+    font-size: 9px;
+	margin-bottom: 10px;
+	position: relative;
+	color: #0D9565;
+	top: -8px;
+}
+#logoBox, #topMenuBox, #mainTable, #bottomMenuBox {
+	margin-right: auto;
+	margin-left: auto;
+	border-color: #2C5B91;
+	border-style: solid;
+}
+#logoBox {
+	width: 742px;
+	background: #FFFFFF url(images/logoBackground.jpg) no-repeat left top;
+	border-width: 1px 1px 0px 1px;
+	padding: 6px 10px 8px 16px;
+}
+#topMenuBox {
+	width: 743px;
+	background: #95ADC8;
+	border-width: 1px 1px 1px 1px;
+	font-size: 9px;
+	padding: 4px 10px 4px 15px;
+	text-align: right;
+}
+#borderedLinks {
+	padding: 6px 0px 6px 0px;
+}
+#applyTable {
+	width: 520px;
+	background: #FFFFFF;
+	border-width: 1px 1px 1px 1px;
+	text-align: bottom;
+}
+#applyTableHeader {
+	width: 520px;
+	background: #E9EEF4;
+	border-width: 1px 1px 1px 1px;
+	font-size: 100%;
+	font-weight: bold;
+	color: #2C5B91;
+}
+#mainTable {
+	width: 770px;
+	background: #FFFFFF;
+	border-width: 0px 1px 1px 1px;
+}
+#bottomMenuBox {
+	width: 520px;
+	font-size: 11px;
+	text-align: left;
+	color: #002870;
+	padding: 4px 0px 4px 0px;
+	border: none;
+}
+#topLeftLinks {
+	float: left;
+	position: relative;
+	top: 10px;
+}
+#csLeftMenuCell {
+	width: 140px;
+	background: #E9EEF4;
+	border-width: 0px 1px 0px 0px;
+	border-color: #336699;
+	border-style: solid;
+}
+#csLeftMenuCell #photoBox {
+	border-width: 0px 0px 0px 0px;
+	border-color: #95ADC8;
+	border-style: solid;
+	overflow: hidden;
+	width: 140px;
+}
+#csLeftMenuCell #headlineBox {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #336699;
+	text-transform: uppercase;
+}
+#csLeftMenuCell #printBox {
+	visibility: hidden;
+	float:bottom;
+	font-size: 11px;
+	font-weight: regular;
+	text-align: center;
+	color: #000000;
+}
+#csContentCell {
+	width: 598px;
+	padding: 10px 20px 30px 20px;
+}
+#leftMenuCell {
+	width: 200px;
+	background: #E9EEF4;
+	text-align: left;
+}
+#leftMenuCell ul {
+	padding: 10px 10px 10px 4px;
+	list-style: none;
+	margin: 0px;
+}
+#leftMenuCell #photoBox {
+	border-width: 0px 0px 4px 0px;
+	border-color: #95ADC8;
+	border-style: solid;
+	overflow: hidden;
+	width: 200px;
+}
+#leftMenuCell #loginBox {
+	padding: 0px 0px 0px 10px;
+	width: 190px;
+	text-align: left;
+	border: none;
+	font-size: 11px;
+	font-weight: regular;
+	color: #2C5B91;
+}
+#contentCell {
+	width: 538px;
+	padding: 10px 20px 30px 20px;
+}
+#motto {
+	position: relative;
+	top: 42px;
+}
+#sideBox {
+	background: #FFFFFF;
+	width: 174px;
+	border: 1px solid #95ADC8;
+	float: right;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-align: center;
+}
+#advertBox {
+	background: #E9EEF4;
+	width: 180px;
+	border: none;
+    float: left;
+	padding: 10px;
+	text-align: center;
+	font-size: 10px;
+	font-weight: regular;
+	color:  #2C5B91;
+}
+#homeLeftCell {
+    padding: 5px;
+	border-width: 0px 0px 1px 0px;
+	border-color: #95ADC8;
+	border-style: solid;
+	overflow: hidden;
+	width: 245px;
+	background: #FEFEFE;
+}
+#homeLeftCell ul {
+	padding: 10px 10px 10px 4px;
+	list-style: none;
+	margin: 0px;
+}
+td#homePhotoCell {
+	border-width: 0px 4px 1px 1px;
+	border-color: #95ADC8;
+	border-style: solid;
+	overflow: hidden;
+	width: 525px;
+	height: 380px;
+	vertical-align: bottom;
+	background: #D3D5D2 url(images/homepage.jpg) no-repeat left top;
+}
+#highlightBox {
+	padding: 6px;
+	border: 1px solid #012969;
+	font-weight: bold;
+}
+
+#companyType {
+  text-align: right;
+  font-size: 11px;
+  font-weight: bold;
+  color: #809DBD;
+}
+#sfSubLink a {
+  text-decoration:    none;
+  font-size: 11px;
+  font-weight: regular;
+  color:  #2C5B91;
+}
+#sfBox {
+    padding: 10px 20px 30px 20px;
+	border: none;
+	font-weight: regular;
+	text-align: center;
+	font-size: 11px;
+	color:  #2C5B91;
+}
+#sfIndexReturn {
+    font-size: 9px;
+	margin-bottom: 10px;
+	position: relative;
+	color: #0D9565;
+	top: -8px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * */
+/* TEXT HEADINGS AND STYLES                  */
+/* * * * * * * * * * * * * * * * * * * * * * */
+
+.bold {	font-weight: bold;}
+.date {	font-size: 11px;
+ font-weight: regular;
+ color: #000000;
+ }
+.pageHeading {
+	font-size: 115%;
+	font-weight: bold;
+	color: #2C5B91;
+	text-transform: uppercase;
+}
+p.pageHeading {  /* Netscape Fix */
+	margin-top: 0px;
+}
+.caseStudyHeading {
+    font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+}
+.categoryHeading {
+    font-size: 13px;
+	font-weight: bold;
+	color: #809DBD;
+}
+.copyright {
+	font-size: 9px;
+	text-align: left;
+	color: #7389AC;
+}	
+.reference {
+    font-size: 9px;
+	color: #000000;
+}	
+.raise {
+    vertical-align: super;
+	font-size:  8px;
+}	
+.lower {
+    vertical-align: sub;
+    font-size:  8px;
+}	
+.fixedFont {
+	font-family: Courier New, Courier, mono;
+	font-size: 14px;
+}	
+.subHeading {
+    font-size: 9px;
+	font-weight: bold;
+	color: #2C5B91;
+}
+.subMenu {
+    font-size: 11px;
+	font-weight: regular;
+	color:  #2C5B91;
+}
+.loginText {
+    font-size: 11px;
+	font-weight: regular;
+	color: #2C5B91;
+}
+.splashEnter {
+    font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.boxHeading {
+    font-weight: regular;
+	color: #000000;
+	font-size: 11px;
+}
+.gotoTop {
+	font-weight: regular;
+	color: #2C5B91;
+	font-size: 10px;
+	float: right;
+}
+.indexReturn {
+	font-weight: regular;
+	color: #000000;
+	font-size: 10px;
+}
+.mapLink {
+	font-weight: regular;
+	color: #2C5B91;
+	font-size: 10px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * */
+/* MISC.                                     */
+/* * * * * * * * * * * * * * * * * * * * * * */
+
+.webmark {
+	padding-top: 2px;
+	padding-left: 10px;
+}
+.borderAll {
+	border: 1px solid #000000;
+}
+.whiteTable {				/* This style is used for 404.asp & 500.asp */
+	background: #FFFFFF;
+	border: 1px solid #000000;
+}

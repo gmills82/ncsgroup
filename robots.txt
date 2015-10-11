@@ -1,0 +1,40 @@
+#  FULL access (All Spiders)
+User-agent: *
+Disallow: 
+
+#  FULL access (Alta Vista)
+User-agent: Scooter
+Disallow: 
+
+#  FULL access (Google)
+User-agent: Googlebot
+Disallow: 
+
+#  FULL access (Lycos)
+User-agent: Lycos_Spider_(T-Rex)
+Disallow: 
+
+#  FULL access (Openfind)
+User-agent: openbot
+Disallow: 
+
+#  FULL access (EuroSeek)
+User-agent: Freecrawl
+Disallow: 
+
+#  FULL access (Excite)
+User-agent: ArchitextSpider
+Disallow: 
+
+#  FULL access (FAST/AllTheWeb)
+User-agent: FAST-WebCrawler
+Disallow: 
+
+#  FULL access (Inktomi)
+User-agent: Slurp
+Disallow: 
+
+#  FULL access (Google Image)
+User-agent: Googlebot-Image
+Disallow: 
+
