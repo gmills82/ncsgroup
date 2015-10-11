@@ -16,7 +16,7 @@
   
        <p class="pageHeading">News & Events </p>
      <span class="categoryHeading">NCS Opens New Office</span>
-        
+
        <p>The NCS Group has become one of the most well-established and financially
 	    stable leading providers of IT specialists and project management in the
 		 United States. NCS offers a full spectrum of technical support options from an

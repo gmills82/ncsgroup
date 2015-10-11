@@ -16,7 +16,7 @@
   
       <p class="pageHeading">History </p>
      
-        <p>The NCS Group was founded in 1986 when our founder envisioned the opportunity to partner with companies who wanted to use technology skill sets as business tools to grow top line revenues.
+        <p>The NCS Group began in 1986 when our founder envisioned the opportunity to partner with companies who wanted to use technology skill sets as business tools to grow top line revenues.
 <br>........................................................................................<br><br>
 
 From the beginning, The NCS Group identified that businesses needed to maximize performance and control operating costs through smart technology and strategy usage.
